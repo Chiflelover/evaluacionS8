@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Raleway', sans-serif;;
+}
+:root{
+    --color-1: #037bc0;
+    --color-2: #005485;
+    --color-3: #000;
+    --color-4: #fff;
+    --color-5: #8cbc00;
+  }
+.header_sitio{
+    margin: 2.5rem  0;
+    font-size: 1.6rem;
+}
+.nombre_pagina{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+.span_muebles{
+    font-family: 'Playfair Display', serif;
+    color: var(--color-1);
+}
+.container_barra{
+    padding: 0;
+}
+.nav_navegacion{
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: var(--color-3);
+}
+/* Section-container_nosotros */
+.container_nosotros {
+    display: flex;
+    flex-direction: column;
+}
+.img_noso {
+    width: 40rem;
+}
+.texto_noso {
+    background-color: var(--color-4); 
+    color: var(--color-3);
+    max-width: 80%;
+    margin-left: 13rem;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+}
+.noso_title {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.descrip_noso {
+    padding: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+/* Footer */
+.footer_info h3{
+    color: var(--color-3);
+}
+.footer_info{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+.info_footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer_list{
+    color: var(--color-3);
+    display: flex;
+    flex-direction: column;
+}
+.footer_list a{
+    color: var(--color-3);
+    line-height: 2;
+}
+.derechos{
+    text-align: center;
+    margin-bottom: 10px;
+}
+h3{
+    font-family: 'Playfair Display', serif;
+    color: var(--color-4);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}

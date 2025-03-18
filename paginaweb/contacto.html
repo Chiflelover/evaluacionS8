@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+    <header class="header_sitio">
+        <h1 class="nombre_pagina">Tienda <span class="span_muebles">Muebles</span></h1>
+    </header>
+    <hr>
+    <div class="container_barra">
+        <nav class="nav_navegacion">
+            <a href="./index.html">Inicio</a>
+            <a href="./nosotros.html">Nosotros</a>
+            <a href="./tienda.html">Tienda</a>
+            <a href="./blog.html">Blog</a>
+            <a href="./galeria.html">Galeria</a>
+            <a href="">Contacto</a>
+        </nav>
+    </div>
+    <div class="container_formulario">
+        <h2 class="formu_title">Contacto</h2>
+        <form action="" class="formulario">
+            <fieldset>
+              <legend>Tus datos</legend>
+              <br />
+              <div class="barra_datos">
+                <label for="name">Nombre:</label>
+                <input id="name" type="text" placeholder="Tu nombre" />
+              </div>
+              <br />
+              <div class="barra_datos">
+                <label for="name">Asunto:</label>
+                <input id="name" type="text" placeholder="Tu asunto" />
+              </div>
+              <br />
+              <div class="barra_datos">
+                <label for="">Correo:</label>
+                <input type="email" placeholder="Tu email"/>
+              </div>
+              <br />
+              <div>
+              <div class="barra_datos">
+                <label for="">Telefono:</label>
+                <input type="tel"placeholder="Tu telefono" />
+              </div>
+              <br />
+              <div class="barra_datos">
+                <label for="descripcion">Mensaje:</label>
+                <textarea name="" id="Tu mensaje"></textarea>
+              </div>
+              <br />
+            </fieldset>
+            <fieldset>
+                <legend>Pais</legend>
+                <br />
+                <div class="barra_datos">
+                    <label for="">Pais</label>
+                    <select name="" id="" class="barra_paises">
+                      <option value="Seleccione">--Seleccione--</option>
+                      <option value="Mexico">Mexico</option>
+                      <option value="Peru">otro</option>
+                      <option value="Colombia">Colombia</option>
+                      <option value="Argentina">Argentina</option>
+                      <option value="España">España</option>
+                      <option value="Chile">Chile</option>
+                    </select>
+                </div>
+                <br />
+            </fieldset>
+            <fieldset>
+                <br />
+                <legend>Información Extra</legend>
+                <div class="barra_datos barra_datos--barra2">
+                    <label for="cliente">Cliente</label>
+                    <input type="radio" id="cliente" name="tipo_usuario" value="Cliente" />
+                    <label for="proveedor">Proveedor</label>
+                    <input type="radio" id="proveedor" name="tipo_usuario" value="Proveedor" />
+                </div>
+                <br />
+                <div class="barra_datos">
+                    <label for="">Categoria de Interes</label>
+                    <input list="Categoria" name="Categoria" />
+                    <datalist id="Categoria">
+                      <option value="Cocina"></option>
+                      <option value="Exterior"></option>
+                      <option value="Recamaras"></option>
+                      <option value="Oficina"></option>
+                      <option value="Television"></option>
+                    </datalist>
+                </div>
+                <br />
+            </fieldset>
+            <button type="submit">ENVIAR FORMULARIO</button>
+          </form>  
+    </div>
+    <hr>
+    <footer class="footer_sitio">
+        <div class="footer_info">
+            <div class="info_footer">
+                <h3>Categorias</h3>
+                <nav class="footer_list">
+                    <a href="">Cocina</a>
+                    <a href="">Oficina</a>
+                    <a href="">Jardin</a>
+                    <a href="">Cochera</a>
+                    <a href="">Dormitorios</a>
+                </nav>
+            </div>
+            <div class="info_footer">
+                <h3>Sobre Nosotros</h3>
+                <nav class="footer_list">
+                    <a href="">Nuestra Historia</a>
+                    <a href="">Misión, Visión y Valores</a>
+                    <a href="">Carreras</a>
+                    <a href="">Política de Privacidad</a>
+                    <a href="">Términos del Servicio</a>
+                </nav>
+            </div>
+            <div class="info_footer">
+                <h3>Soporte</h3>
+                <nav class="footer_list">
+                    <a href="">Preguntas Frecuentes</a>
+                    <a href="">Ayuda en línea</a>
+                    <a href="">Confianza y Seguridad</a>
+                </nav>
+            </div>
+        </div>
+        <p class="derechos">Todos los derechos Reservados, TiendaMuebles</p>
+    </footer>    
+</body>
+</html>
